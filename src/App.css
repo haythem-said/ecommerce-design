@@ -1,0 +1,38 @@
+:root {
+  margin: 0 50px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  border-bottom: 1px solid rgb(126, 118, 118);
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.nav-bar-logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar .nav-items {
+  display: flex;
+}
+.nav-bar .item {
+  margin: 0 20px;
+  list-style-type: none;
+}
+.nav-bar-price-pictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar .pictures {
+  height: 60px;
+  width: 60px;
+  margin: 0 10px;
+}
+.nav-bar .cart {
+  margin: 0 30px;
+}/*# sourceMappingURL=App.css.map */
